@@ -1,5 +1,50 @@
-html, body {
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
 	width: 1500px;
-	margin-top: 0 auto;
+	min-height: 100%;
+	margin: 0 0 150px;
+	background: url("../image/mainBackgroundCloud.jpg") no-repeat;
+}
+hr {
+	margin: 0;
+	padding: 0;
+}
+.footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 150px; /* для подвала */
+}
+.header, .header__nav_container {
+	height: 500px;
+    width: 100%;
+}
+
+.list_left, .list_right {
+	display: inline-block;
 	
+}
+.container__main_logo {
+	height: 187px;
+	width: 350px;
+	text-align: center;
+}
+.text__main_logo_1 {
+	font-family: TrajanPro-Regular, serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	letter-spacing: 3px;
+}
+.text__main_logo_2 {
+	font-family: TrajanPro-Regular, serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 19px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
