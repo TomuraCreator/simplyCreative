@@ -108,5 +108,23 @@ style description of the sity */
 }
 .descrip_text_block .descrip_text {
 	text-align: center;
+}
 
+/*forming 3 columns*/
+
+.conteiner__articles {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.block__column, .block__column_mid {
+    width: 300px;
+    height: 700px;
+    display: inline-block;
+    margin: 0;
+}
+.block__column_mid {
+	margin-right: 25px;  
+	margin-left: 25px;
+	
 }
