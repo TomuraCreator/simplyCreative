@@ -4,13 +4,16 @@ html {
 }
 body {
 	width: 1500px;
-	min-height: 100%;
+	max-width: 2200px;
+	max-height: 100%;
 	margin: 0 0 150px;
 	background: url("../image/mainBackgroundCloud.jpg") no-repeat;
+	font-size: 100%;
 }
-hr {
-	margin: 0;
-	padding: 0;
+.main {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
 }
 .footer {
 	position: absolute;
@@ -20,17 +23,54 @@ hr {
 	height: 150px; /* для подвала */
 }
 .header, .header__nav_container {
-	height: 500px;
+	height: 400px;
     width: 100%;
 }
 
-.list_left, .list_right {
-	display: inline-block;
-	
+/*center alignment of the container*/
+.header__nav_container {
+	width: 645px;
+	padding: 0;
+	margin: 0 auto;
 }
+/*navigation style */
+
+.list_navigation {
+	padding: 0;
+}
+.list_navigation li {
+	display: inline-block;
+	font-family: RBNo2 Light, serif;
+	font-size: 1.5em;
+	vertical-align: middle;
+	text-transform: uppercase;
+	margin: 10px;
+}
+.point__list {
+	color: #adadac;
+}
+/*activisation archor navigation style*/
+
+.archor_navigation {
+	text-decoration: none;
+}
+.archor_navigation:link {
+	color: black;
+}
+.archor_navigation:visited {
+	color: black;
+}
+.archor_navigation:active {
+	color: black;
+	text-shadow: 2px 4px 2px grey;
+}
+
+/*styles for main logo */
+
 .container__main_logo {
 	height: 187px;
 	width: 350px;
+	margin: 0 auto;
 	text-align: center;
 }
 .text__main_logo_1 {
@@ -38,13 +78,35 @@ hr {
 	font-size: 36px;
 	text-transform: uppercase;
 	margin-bottom: 18px;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
+	vertical-align: middle;
+}
+.text__main_logo_1 span {
+	font-size: 0.5em;
+	vertical-align: 4px;
 }
 .text__main_logo_2 {
 	font-family: TrajanPro-Regular, serif;
-	font-size: 20px;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	letter-spacing: 19px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.image__main_logo {
+	opacity: 0.79;
+}
+
+/* 
+style description of the sity */
+
+.descrip_text_block {
+	font-family: Calibri, serif;
+	font-size: 1.2em;
+	width: 700px;
+	margin: 0 auto;
+}
+.descrip_text_block .descrip_text {
+	text-align: center;
+
 }
