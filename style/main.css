@@ -1,13 +1,12 @@
 html {
 	position: relative;
-	min-height: 100%;
+	max-height: 2000px;
 }
 body {
 	width: 1500px;
 	max-width: 2200px;
-	max-height: 100%;
-	margin: 0 0 150px;
-	background: url("../image/mainBackgroundCloud.jpg") no-repeat;
+	margin: 0 auto;
+	background: url("../image/mainBackgroundCloud.jpg") center no-repeat;
 	font-size: 100%;
 }
 .main {
@@ -18,7 +17,7 @@ body {
 .footer {
 	margin: 0 auto;
 	height: 200px;
-	width: 960px; /* для подвала */
+	width: 960px; /* for footer*/
 }
 .header, .header__nav_container {
 	height: 337px;
@@ -246,7 +245,7 @@ style description of the sity */
 /*footer line*/
 .bottom_line {
 	color: #808080;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 }
 
 /*footer legend position*/
