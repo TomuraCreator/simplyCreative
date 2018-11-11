@@ -100,13 +100,13 @@ style description of the sity */
 
 .descrip_text_block {
 	font-family: Calibri, serif;
-	font-size: 1.2em;
+	font-size: 1em;
 	width: 758px;
 	margin: 70px auto 0 auto;
-}
-.descrip_text_block .descrip_text {
 	text-align: center;
+	text-transform: uppercase;
 }
+
 
 /*forming 3 columns*/
 
@@ -214,7 +214,9 @@ style description of the sity */
 	font-size: 16px;
 	line-height: 25px;
 	font-weight: normal;
-
+}
+.subtitle_news_block {
+	text-transform: uppercase;
 }
 .additional_news__block_2 {
 	width: 300px;
@@ -248,7 +250,10 @@ style description of the sity */
 }
 
 /*footer legend position*/
-
+.design_author {
+	margin-top: 23px;
+	margin-bottom: 0;
+}
 .footer__left {
 	float: left;
 	width: 200px;
@@ -256,9 +261,37 @@ style description of the sity */
 }
 .footer_rigth_links {
 	float: right;
-	width: 200px;
+	width: 266px;
 	height: 30px;
 }
 .list__links li {
 	display: inline-block;
+	width: 33px;
+	height: 33px;
+	border-radius: 20px;
+	border: 1px solid #bbbbbb;
+	box-shadow: 0 0 2px 0 gray;
+	
+	margin-left: 7px;
+	font-size: 0;
+}
+.links_fb {
+	background: url("../image/fb.png") center no-repeat, linear-gradient(to top, #eaeaea, #ffffff);
+	background-size: 50%;
+}
+.links_wiki {
+	background: url("../image/wiki.png") center no-repeat, linear-gradient(to top, #eaeaea, #ffffff);
+	background-size: 90%;
+}
+.links_flikr {
+	background: url("../image/flikr.png") center no-repeat, linear-gradient(to top, #eaeaea, #ffffff);
+	background-size: 90%;
+}
+.links_tw {
+	background: url("../image/tw.png") center no-repeat, linear-gradient(to top, #eaeaea, #ffffff);
+	background-size: 60%;
+}
+.links_devArt {
+	background: url("../image/devArt.png")  center no-repeat, linear-gradient(to top, #eaeaea, #ffffff);
+	background-size: 90%;
 }
