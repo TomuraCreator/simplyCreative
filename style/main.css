@@ -157,28 +157,50 @@ style description of the sity */
  }
 /*blockquote style*/
 .blockquote_block {
-	width: 710px;
+	width: 100%;
 	height: 100px;
 	margin: 0 auto;
+	position: relative;
 }
 #blockquote {
+	width: 710px;
     font-family: TrajanPro, serif;
     text-align: center;
     margin: 0 0 0 15px;
-    line-height: 23px;
-    font-size: 1.3em;
+    line-height: 27px;
+    font-size: 0.95em;
     word-spacing: .3em;
+    margin: 0 auto;
+    text-transform: uppercase;
 
 }
 .left {
-	float: left;
+	
 	font-size: 5em;
 	opacity: 0.5;
 	width: 10px;
 	margin: auto 0;
 }
+.svg_left {
+	position: absolute;
+	height: 100px;
+	width: 30px;
+	left: 70px;
+	top: -10px;
+	opacity: 0.2;
+}
+.svg_right {
+	position: absolute;
+	height: 100px;
+	width: 30px;
+	left: 90%;
+	bottom: 10px;
+    opacity: 0.2;
+
+}
 
 /*style news block*/
+
 .additional_news__container {
 	width: 960px;
 	height: 300px;
